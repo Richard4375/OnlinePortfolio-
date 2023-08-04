@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Online Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <nav class = 'head'>
+            <h1>RICHARD WANG</h1>
+            <a href="https://www.linkedin.com/in/richardwang4375" target="_blank">
+                <img class="icon" src="linked.png">
+            </a>
+            <a href="https://docs.google.com/document/d/1tuqvbsSVUgp8pf9zDOuBJf2EMcagvW3tPZgIi7PEUSc/edit?usp=sharing" target="_blank">
+                <img class="icon" src="res.png">
+            </a>
+        </nav>
+    </div>
+    <div class = "main">
+        <nav>
+            <div>SECTIONS:</div>
+            <div class ="item">ABOUT ME</div>
+            <a href="edu.html"><div class ="item">EDUCATION</div></a>
+            <a href="ec.html" ><div class ="item">EXTRACURRICULARS</div></a>
+            <a href="ex.html"><div class ="item">EXPERIENCE</div></a>
+        </nav>
+    </div>
+    <br>
+
+    <div class = 'stuf'>
+        <h2>INTRODUCTION</h2>
+        <p>Hi, my name is Richard Wang. I am a rising senior at Staten Island High School. I am an avid chess player and manga reader. 
+            I enjoy listening to rap music and exercising. I am interested in engineering and business.</p>
+        <br>
+        <h3>SKILLS</h3>
+        <p>My skills include:</p>
+        <p>English (fluent)</p>
+        <p>Mandarin Chinese (conversational)</p>
+        <P>Programming (beginner)</P> 
+        <br>
+        <h4>CONTACT ME</h4>
+        <p>Email: richardw83457@gmail.com</p>
+
+        <label for="smSelect">Social Media:</label>
+        <select id="smSelect" onchange="redirect()">
+        <option value="">Select a social media platform</option>
+        <option value="Instagram">Instagram</option>
+        <option value="Github">GitHub</option>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
